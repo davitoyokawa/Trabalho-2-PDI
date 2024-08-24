@@ -15,11 +15,6 @@ Este repositório contém um exemplo de implementação de filtros de High-Boost
 - OpenCV
 - NumPy
 
-Você pode instalar as dependências com:
-
-```bash
-pip install opencv-python numpy
-
 Como usar
 1 - Carregar uma imagem: O código carrega uma imagem em escala de cinza da pasta images. Certifique-se de que a imagem esteja presente no diretório correto ou ajuste o caminho da imagem no código.
 
@@ -40,3 +35,8 @@ High-Boost Filtering: O filtro High-Boost é uma generalização do Unsharp Mask
 
 Resultados
 As imagens resultantes das operações de Unsharp Masking e High-Boost Filtering são exibidas em janelas do OpenCV. O resultado final é salvo no formato correto para exibição, com valores de pixels convertidos para o intervalo de [0, 255].
+
+Você pode instalar as dependências com:
+
+```bash
+pip install opencv-python numpy
